@@ -1,0 +1,23 @@
+{
+    "name": "avltree/bee",
+    "authors": [
+        {
+            "name": "Przemysław Saracen",
+            "email": "p.saracen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Avltree\\Bee\\": "."
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "symfony/console": "^4.2",
+        "symfony/event-dispatcher": "^4.2",
+        "monolog/monolog": "^1.24"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    }
+}
